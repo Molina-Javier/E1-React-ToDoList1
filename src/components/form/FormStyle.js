@@ -6,8 +6,10 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 padding: 50px;
-margin: 20px 50px;
+margin:0 auto;
 gap: 10px;
+border-radius: 10px;
+max-width: 600px;
 
 background: white;
 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

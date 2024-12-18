@@ -44,6 +44,7 @@ function App() {
   const deleteTask = (id) => {
   
     setTasks(prevTasks => prevTasks.filter(task => task.id !== id));
+    setError("");
     };
 
 const deleteAll = () => {
